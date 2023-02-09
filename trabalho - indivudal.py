@@ -15,9 +15,21 @@ pratica = int(input('por favor insisra a nota pratica:'))
 soft = int(input('por favor insira a nota soft:'))
 for i in resultados:
     if int(i[1]) >= entrevista and int(i[4]) >= teorica and int(i[7]) >= pratica and int(i[10]) >= soft:
-        print('achei o seu candidato:')
+        print('Patolino é o seu candidato:')
         print('resultados:',i[1],i[4],i[7],i[10])
     else:
-        print('nao achei seu candidato com essa nota:')
+        print(' ')
+        print('Bart não é seu candidato:')
         print('resultados:',i[1],i[4],i[7],i[10])
+        print(' ')
+        print('Lisa não é seu candidato:')
+        print('resultados:',i[1],i[4],i[7],i[10])
+        print(' ')
+        print('Jorel não é seu candidato:')
+        print('resultados:',i[1],i[4],i[7],i[10])
+        print(' ')
+        print('Fred não é seu candidato;')
+        print('resultados:',i[1],i[4],i[7],i[10])
+        print(' ')
+        
         
